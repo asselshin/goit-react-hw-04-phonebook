@@ -1,0 +1,13 @@
+.deleteBtn{
+    margin-left: 15px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.deleteBtn:focus{
+    background-color: lightblue;
+}
+.contactItem:not(:last-child){
+    margin-bottom: 10px;
+}

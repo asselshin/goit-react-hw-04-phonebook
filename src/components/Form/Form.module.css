@@ -1,0 +1,35 @@
+.form{
+    width: 400px;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+input{
+    width: 200px;
+    display: block;
+    padding: 5px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-color: lightgrey;
+}
+
+input:focus {
+    border-style: dashed;
+}
+
+label{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.addBtn{
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:focus{
+    background-color: blue;
+}
