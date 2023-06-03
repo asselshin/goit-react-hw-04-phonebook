@@ -12,7 +12,6 @@ export default function App() {
   const [filter, setFilter] = useState('');
 
   useEffect(() => {
-    console.log('uodate');
     localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
 
